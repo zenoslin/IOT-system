@@ -8,5 +8,5 @@
   - [Javascript](https://github.com/zenoslin/IOT-system/tree/master/web)
   - [PHP](https://github.com/zenoslin/IOT-system/tree/master/web)
   - [Android](https://github.com/zenoslin/IOT-system/tree/master/SmartM0012)
-  - Java
+  - [Java](https://github.com/zenoslin/IOT-system/tree/master/Java)
   - MySQL
