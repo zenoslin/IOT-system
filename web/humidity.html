@@ -99,12 +99,10 @@ function requestData() {
                 shift = series.data.length > 20; // 当数据点数量超过 20 个，则指定删除第一个点
             var x = point.time + 28800000,
                 y = parseInt(point.Humity);
-
             console.log(x);
             console.log(y);
             // 新增点操作
             chart.series[0].addPoint([x,y], true, shift);
-
             // 一秒后继续调用本函数
             setTimeout(requestData, 1000);
         },
